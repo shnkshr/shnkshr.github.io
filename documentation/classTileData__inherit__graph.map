@@ -1,0 +1,4 @@
+<map id="TileData" name="TileData">
+<area shape="rect" id="node1" title="This class represents meta&#45;data for an individual tile that gets rendered." alt="" coords="18,80,95,107"/>
+<area shape="rect" id="node2" href="$classGameObject.html" title="This is the base class for all game objects. This class can be used to instantiate an object and addi..." alt="" coords="5,5,108,32"/>
+</map>

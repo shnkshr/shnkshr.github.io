@@ -38,6 +38,27 @@
             </li>
             <li>Multiple enemy types!
             </li> -->
+            <p>Our Engine focuses more on the APIs rather that the tile editor because we wanted to make our engine as generic as possible. As a result we were able to create a variety of 2D games - like platformers & arcade games as shown below. 
+                 
+                We also used Box2D to handle physics throughout our system and provided a clean abstraction over our APIs to use Physics in the game - All the user needs to do is configure & attach the Physics component on an object and the object moves according to the laws of physics and computations done based on the configuration.
+                The Engine takes care of creating a physics body that automatically performs updates, collisions etc on every frame. All the user has to do is attach the game object like pacman to it.
+                <div class="row">
+                    <div class="column">
+                        <img src="./assets/enginephysicsscreenshot.png" alt="From our engine, the C++ code responsible for creating a physics body" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="./assets/physicsuserscreenshot.png" alt="User attaching the physics component" style="width:100%">
+                    </div>
+                </div>
+                <br>
+                <br>
+                Our editor also comes with useful features to make game development easier. 
+                
+                Some of these include : <br> <br>
+                <li>Functionality of load/save project so that the user can continue working on a project.</li> 
+                <li>A status panel at the bottom that tells the user about the status of the game configuration.</li> 
+                <li>Functionality to add any property to a given game object which can be used in the python scripts.</li> 
+            </p>
         </ul>
         <h3>Binary file</h3>
         <p>Use this <a href="https://github.com/rumanstheddy/CS4850_Platformer_website/tree/main/binary">link</a> to get
@@ -48,28 +69,63 @@
         <h3>Trailer</h3>
         <div style="display: flex; justify-content: center;">
             <iframe style="display: block;
-        border-style:none;" width="560" height="315" src="https://www.youtube.com/embed/CVmyVcldleg" frameborder="0"
+        border-style:none;" width="560" height="315" src="https://www.youtube.com/watch?v=PEjhtEvKzxQ&ab_channel=PranavSharma" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
         <h3>Screenshots</h3>
         <div class="row">
             <div class="column">
+                <img src="./assets/ss4.png" alt="screenshot 4" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="./assets/ss3.png" alt="screenshot 3" style="width:100%">
+            </div>
+            <div class="column">
                 <img src="./assets/ss2.png" alt="screenshot 2" style="width:100%">
             </div>
             <div class="column">
-                <img src="./assets/ss1.png" alt="screenshot 3" style="width:100%">
+                <img src="./assets/ss1.png" alt="screenshot 1" style="width:100%">
             </div>
         </div>
+        <h3>Architecture</h3>
+        <div class="row">
+            <div class="column">
+                <img src="./assets/architecture.png" alt="architecture" style="width:300%">
+            </div>
+        </div>
+
         <h3>Post Mortem</h3>
         <ul>
-            <li>Engine Editor
+            <li>Editor
                 <p>
-                    Our game currently supports only one level so first thing to improve or work upon would adding more
-                    levels. Also, the level right now is fairly simple to play, making it more challenging and also more
-                    engaging could be fun.
+                    Currently, the preview window can be used to preview a game object when loaded with a custom sprite. But due to time constraint
+                    we could not implement relativ positioning of these objects that will be rendered in the game.
+                    We could add this functrionality of being able to drag and rop game objects and tiles in respective positions such that
+                    the same layout will be rendered in the game.
                 </p>
-            
+
+            <li>Menu
+                <p>
+                    Currently, our game engine doesn't support a menu component. So user needs to achieve it using existing components manually,
+                     which is a hard work. We could add a menu component to let user create menu easier.
+                </p>
+            <li>Game object AI
+                <p>
+                    Our game engine doesn't support AI, so users need to create it by themselves. We can improved it by supporting some default behaviors of AI.
+                </p>
+            <li>Physics
+                <p>
+                    Although we use Box2D to handle the collision and gravity, we can improve the behavior of 
+                    physics by solving the problem where objects in the game might stick at somewhere. 
+                    Also the physics properties of objects are limited due to Box2D. 
+                    For example, an object can not pass through another object and raise contact callback without collision.
+                </p>
+            <li>Different Tile properties
+                <p>
+                    For now, tiles have same properties. We could let user to add custom properties to the tile, 
+                    for instance, different tiles have different friction, or some tiles could be destroyed by player.
+                </p>
         </ul>
         <h3>Documentation</h3>
         <p>Use this <a href="./documentation/index.html">link</a> to go to the documentation page.</p>

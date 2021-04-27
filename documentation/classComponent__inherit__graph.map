@@ -1,0 +1,9 @@
+<map id="Component" name="Component">
+<area shape="rect" id="node1" title="This class represents the base Component class." alt="" coords="5,132,103,159"/>
+<area shape="rect" id="node2" href="$classControllerComponent.html" title="This class represents the controller component that will allow user to move the game object to which ..." alt="" coords="151,5,313,32"/>
+<area shape="rect" id="node3" href="$classPhysicsComponent.html" title=" " alt="" coords="159,56,305,83"/>
+<area shape="rect" id="node4" href="$classSpriteComponent.html" title="A small class to demonstrate loading sprites. SpriteComponent sheets are often used for loading chara..." alt="" coords="165,107,299,133"/>
+<area shape="rect" id="node5" href="$classTextComponent.html" title="A generic component that can be used to display text through a game object." alt="" coords="170,157,294,184"/>
+<area shape="rect" id="node6" href="$classTileMapComponent.html" title=" " alt="" coords="157,208,307,235"/>
+<area shape="rect" id="node7" href="$classTransformComponent.html" title="This class represents a transform component that defines a game object&#39;s position in the world." alt="" coords="151,259,313,285"/>
+</map>

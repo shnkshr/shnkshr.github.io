@@ -1,0 +1,5 @@
+<map id="TextComponent" name="TextComponent">
+<area shape="rect" id="node1" title="A generic component that can be used to display text through a game object." alt="" coords="5,171,129,197"/>
+<area shape="rect" id="node2" href="$classComponent.html" title="This class represents the base Component class." alt="" coords="19,95,116,121"/>
+<area shape="rect" id="node3" href="$classGameObject.html" title="This is the base class for all game objects. This class can be used to instantiate an object and addi..." alt="" coords="16,5,119,32"/>
+</map>

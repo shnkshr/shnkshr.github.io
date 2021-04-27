@@ -1,0 +1,19 @@
+<map id="include/api/SpriteComponent.hpp" name="include/api/SpriteComponent.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="281,5,519,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="328,304,387,331"/>
+<area shape="rect" id="node3" title=" " alt="" coords="587,80,653,107"/>
+<area shape="rect" id="node4" href="$Component_8hpp.html" title=" " alt="" coords="171,155,296,181"/>
+<area shape="rect" id="node9" href="$TransformComponent_8hpp.html" title=" " alt="" coords="371,80,562,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="245,304,304,331"/>
+<area shape="rect" id="node6" href="$Event_8hpp.html" title=" " alt="" coords="122,229,209,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="110,304,221,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,304,85,331"/>
+<area shape="rect" id="node10" href="$CoreStructs_8hpp.html" title=" " alt="" coords="404,155,529,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="371,229,477,256"/>
+<area shape="rect" id="node12" href="$ResourceManager_8hpp.html" title=" " alt="" coords="501,229,667,256"/>
+<area shape="rect" id="node13" title=" " alt="" coords="765,304,867,331"/>
+<area shape="rect" id="node14" title=" " alt="" coords="892,304,943,331"/>
+<area shape="rect" id="node15" title=" " alt="" coords="411,304,471,331"/>
+<area shape="rect" id="node16" title=" " alt="" coords="496,304,576,331"/>
+<area shape="rect" id="node17" href="$LevelData_8hpp.html" title=" " alt="" coords="601,304,741,331"/>
+</map>
