@@ -1,3 +1,3 @@
 # CS4850_Platformer_website
 
-https://shnkshr.github.io/
+https://rumanstheddy.github.io/CS4850_Platformer_website/index.html
